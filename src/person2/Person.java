@@ -7,7 +7,6 @@ public class Person {
 	public Person() {}//コンストラクタ①
 	
 	public Person(String name, int age) {
-		
 		this.name = name;
 		this.age = age;
 		//コンストラクタ②
@@ -16,15 +15,18 @@ public class Person {
 	public Person(String name) {
 		this.name = name;
 		this.age = 0;
+		//コンストラクタ③
 	}
 	
 	public Person(int age) {
 		this.name = "名前なし";
 		this.age = age;
+		//コンストラクタ④
 	}
 	
 	public Person(int age, String name) {
 		this.name = name;
 		this.age = age;
+		//コンストラクタ⑤
 	}
 }

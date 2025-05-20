@@ -16,6 +16,21 @@ public class Test {
 		System.out.println(jiro.name);
 		System.out.println(jiro.age);
 		//コンストラクタ②を使ったインスタンス化
+		
+		Person saburo = new Person("saburo");
+		System.out.println(saburo.name);
+		System.out.println(saburo.age);
+		//コンストラクタ③を使ったインスタンス化
+		
+		Person person = new Person(25);
+		System.out.println(person.name);
+		System.out.println(person.age);
+		//コンストラクタ④を使ったインスタンス化
+		
+		Person hanako = new Person("hanako",17);
+		System.out.println(hanako.name);
+		System.out.println(hanako.age);
+		//コンストラクタ⑤を使ったインスタンス化
 	}
 
 }
